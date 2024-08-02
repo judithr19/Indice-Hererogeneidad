@@ -1,6 +1,16 @@
 #___________________________________________________________#
 # Índice de Diversidad Heterogénea: Una medida de variabilidad y disparidad
 #___________________________________________________________#
+library("scatterplot3d") # load
+library(DescTools) #para gini
+library(ineq)
+library(gtools)
+library(corrplot)
+library(ggmatplot)
+library(ggplot2)
+library(readxl)
+library(tidyr)
+library(patchwork);
 
 #********************************#
 #### INDICES ####
